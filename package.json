@@ -1,0 +1,14 @@
+{
+  "name": "runtime-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "postinstall": "cd client && npm i && cd ../server && npm i && cd ..",
+    "build": "cd client && npm run build && cd ../server && npm run build && cd ..",
+    "start": "node server/build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
